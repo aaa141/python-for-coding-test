@@ -8,6 +8,7 @@ for i in range(len(coin) + 1):
     c = combinations(coin, i)
     comb.extend(c)
 
+
 subsum = []
 for i in comb:
     subsum.append(sum(i))
